@@ -1,0 +1,50 @@
+name: OpenSurvivalGames
+version: '1.0-SNAPSHOT'
+main: dev.suchbyte.openSurvivalGames.OpenSurvivalGamesPlugin
+api-version: '1.8'
+authors: [ Manuel Mayer ]
+website: https://github.com/manuelmayer-dev/OpenSurvivalGames
+commands:
+  # Player Commands
+  stats:
+    description: "Shows statistics for players"
+    aliases: [ records, globalstats ]
+  list:
+    description: "Shows online players"
+  scramble:
+    description: "Hide your stats"
+  vote:
+    description: "Vote for a map"
+    aliases: [v]
+
+  # Admin Commands
+  cancel:
+    description: "Cancels the lobby or deathmatch countdown"
+    permission: "opensurvivalgames.commands.cancel"
+  setlobby:
+    description: "Sets the lobby spawn"
+    permission: "opensurvivalgames.commands.setup"
+  createmap:
+    description: "Imports a map, creates the map config and teleports the player to the map"
+    permission: "opensurvivalgames.commands.setup"
+  skipwarmup:
+    description: "Shortens the warmup countdown"
+    permission: "opensurvivalgames.commands.skipwarmup"
+  setmapspawn:
+    description: "Sets a spawn for the current map"
+    permission: "opensurvivalgames.commands.setup"
+  setmapspawnitem:
+    description: "Receive a convinient item which performs the setmapspawn command"
+    permission: "opensurvivalgames.commands.setup"
+  tier2tool:
+    description: "Receive a item to select the tier 2 crates"
+    permission: "opensurvivalgames.commands.setup"
+  start:
+    description: "Shortens the countdown"
+    permission: "opensurvivalgames.commands.start"
+  forcestart:
+    description: "Bypasses the minimum required players and shortens the countdown"
+    permission: "opensurvivalgames.commands.forcestart"
+  forcemap:
+    description: "Cancels voting and let's you directly select a map of the entire map pool"
+    permission: "opensurvivalgames.commands.forcemap"

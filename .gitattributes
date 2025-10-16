@@ -1,0 +1,2 @@
+plugins/CorePlugin/lib/*.jar filter=lfs diff=lfs merge=lfs -text
+plugins/ImagesPlugin/lib/*.jar filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,38 @@
+# Build outputs
+target/
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Minecraft
+plugins/
+world/
+world_nether/
+world_the_end/
+server.properties
+eula.txt
+*.jar
+!pom.xml
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+

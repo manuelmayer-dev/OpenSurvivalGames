@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  workflow_call:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  plugin_build:
+    name: Plugin Build
+    uses: ./.github/workflows/ci-build.yml
+    if: ${{ github.event_name != 'push' || github.event.pull_request.head.sha != github.sha }}
+    secrets: inherit
+    permissions:
+      packages: write
+      id-token: write
+      contents: read
