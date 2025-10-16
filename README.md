@@ -136,7 +136,6 @@ src/main/kotlin/dev/suchbyte/survivalGamesPlugin/
 ├── presentation/           # User interface
 │   ├── commands/          # Command handlers
 │   └── gui/               # Inventory menus
-├── listeners/              # Event handlers
 └── infrastructure/         # Technical utilities
 ```
 
