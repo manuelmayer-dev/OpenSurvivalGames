@@ -38,7 +38,7 @@ jobs:
         run: mkdir result
 
       - name: Copy SurvivalGames Plugin
-        run: cp $(find target/SurvivalGamesPlugin-*.jar) result/SurvivalGamesPlugin.jar
+        run: cp $(find target/OpenSurvivalGamesPlugin-*.jar) result/OpenSurvivalGamesPlugin.jar
 
       - uses: actions/upload-artifact@v4
         with:
