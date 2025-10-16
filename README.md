@@ -205,30 +205,6 @@ This standalone version has been refactored from the original SGHub server plugi
 
 All core gameplay features remain fully functional in this standalone release.
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/manuelmayer-dev/OpenSurvivalGames/issues)
-- **Website**: [https://github.com/manuelmayer-dev/OpenSurvivalGames](https://github.com/manuelmayer-dev/OpenSurvivalGames)
-
-## 📈 Roadmap
-
-### Planned for Future Releases:
-- [ ] Database integration for persistent statistics (MySQL/PostgreSQL)
-- [ ] Party system
-- [ ] Spectator GUI improvements
-- [ ] More cosmetics (death effects, win effects)
-- [ ] Achievement system
-- [ ] API for third-party integrations
-- [ ] Multi-arena support
-- [ ] Configurable game modes
-
-### Potential SGHub Feature Re-implementations:
-- [ ] Cross-server statistics synchronization
-- [ ] Network-wide leaderboards
-- [ ] BungeeCord integration for lobby return
-- [ ] Economy integration (Vault support)
-- [ ] Permission-based cosmetics unlocking
-
 ---
 
 **Made with ❤️ by Manuel Mayer**
